@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="firstHalf">
+    <div class="bar1">
+      <input placeholder="Search for cities" name="cities">
+    </div>
+    <div class="bar2">
+      <div class="b21">
+      <div class="location">
+        <h3>City</h3>
+        <p>Chance of rain:</p>
+      </div>
+      <h2></h2>
+      </div>
+      <img src="01d.png" alt="icon">
+    </div>
+    <div class="bar3">
+      <p class="bar31">TODAY'S FORECAST</p>
+      <div class="today">
+      </div>
+    </div>
+    <div class="bar4">
+      <p class="airtitle">AIR CONDITIONS</p>
+      <div class="b4container">
+        <div class="a1">
+          <pre class="a11"><i class="fa-solid fa-thermometer"></i>  Real Feel</pre>
+          <p class="a12"></p>
+        </div>
+        <div class="a2">
+          <pre class="a21"><i class="fa-solid fa-wind"></i>  Wind Speed (m/s)</pre>
+          <p class="a22"></p>
+        </div>
+        <div class="a3">
+          <pre class="a31"><i class="fa-solid fa-droplet"></i>  Humidity</pre>
+          <p class="a32"></p>
+        </div>
+        <div class="a4">
+          <pre class="a41"><i class="fa-solid fa-mask-face"></i>  Pressure(hPa)</pre>
+          <p class="a42"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="secondHalf">
+    <p class="seven">7-DAY FORECAST</p>
+    <div class="sevencontainer">
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,196 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  background-color: #0b111d;
+}
+
+
+/*search bar*/
+
+.bar1 input{
+  height: 2.5rem;
+  width:95%;
+  background-color:#33445b;
+  padding-left: 0.5rem;
+  padding-bottom: 0.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+.bar2{
+  display: flex;
+  width: 80%;
+  padding-left: 5rem;
+}
+
+.b21{
+  width: 55%;
+}
+
+.location{
+  height: 7rem;
+  min-width:25rem;
+  padding-top: 1.5rem;
+}
+
+.location h3{
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.location p{
+  color: rgba(255, 255, 255, 0.723);
+  font-size: 0.9rem;
+}
+
+.b21 h2{
+  font-size:3.5rem ;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.bar2 img{
+  width: 12.5rem;
+}
+
+/** bar3**/
+
+.bar3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color:#33445b;
+  width: 85%;
+  height: 10rem;
+  padding: 2rem;
+  margin-left: 2rem;
+  border-radius: 1.5rem;
+}
+
+.today{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar3 img{
+  height: 5rem;
+}
+
+.bar31{
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.723);
+  padding-bottom: 1.2rem;
+}
+
+
+.b11, .b21, .b31, .b41, .b51, .b61{
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.723);
+  padding-left: 1.35rem;
+}
+
+.b12, .b22, .b32, .b42, .b52, .b62{
+  font-size: 1.25rem;
+  padding-left:1.35rem ;
+}
+
+/** bar4 **/
+
+.bar4{
+  background-color:#33445b;
+  width: 85%;
+  height: 8rem;
+  padding: 2rem;
+  margin-left: 2rem;
+  border-radius: 1.5rem;
+}
+
+.airtitle{
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.723);
+  padding-bottom: 1.5rem;
+}
+
+.a11, .a21, .a31, .a41{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.723);
+  padding-bottom: 0.5rem;
+}
+
+.a12, .a22, .a32, .a42{
+  padding-left: 1.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.b4container{
+  display: flex;
+  justify-content: space-around;
+}
+
+/** second half **/
+
+.firstHalf{
+  flex: 1.5;
+}
+
+.secondHalf{
+  flex: 1;
+  margin: 1.5rem;
+  margin-top:5rem;
+  margin-right: 2.5rem;
+  height: 37.25rem;
+  background-color: #33445b;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.seven{
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.723);
+  padding-bottom: 1.5rem;
+}
+
+.sevencontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.d1,.d2,.d3,.d4,.d5{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1.1rem;
+}
+
+.day1,.day2,.day3,.day4,.day5{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.723);
+  padding-bottom: 1.5rem;
+  padding-top: 1.4rem;
+}
+
+.f1,.f2,.f3,.f4,.f5{
+  display: flex;
+}
+.f1 img,.f2 img,.f3 img,.f4 img,.f5 img{
+  height: 4rem;
+}
+.f1 p,.f2 p,.f3 p,.f4 p,.f5 p{
+  padding-top: 1.4rem;
+  color: rgba(255, 255, 255, 0.723);
+}
+
+.tmax1,.tmax2,.tmax3,.tmax4,.tmax5{
+  color: rgba(255, 255, 255, 0.723);
+  padding-top:1.4rem ;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <form>
+    <h2>Expense Tracker</h2>
+    <div class="money">
+      <div class="balanceBox">
+        <p>Balance:</p>
+        <p class="balance">100</p>
+      </div>
+      <div class="incomeBox">
+        <p>Total Income:</p>
+        <input class="income" value="100">
+        <button class="ent">Cal Bal</button>
+      </div>
+      <div class="expensesBox">
+        <p>Total Expense:</p>
+        <p class="expenses">0</p>
+      </div>
+    </div>
+    <div class="add">
+      <div class="details">
+        <div class="name">
+          <p>Name:</p>
+          <input class="nameInp" placeholder="Enter the Expense">
+        </div>
+        <div class="amount">
+          <p>Amount:</p>
+          <input class="amountInp" value="100">
+        </div>
+        <div class="category">
+          <p>Category:</p>
+          <input class="categoryInp" placeholder="Enter the Category">
+        </div>
+      </div>
+      <button class="addButt">Add Expense</button>
+    </div>
+      <h3>Expense List</h3>
+      <div class="listing">
+        
+      </div>
+      <button class="clearAll">Clear All</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

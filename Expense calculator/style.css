@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  /* background-color: #f4f7fc; */
+  background-image: url("https://i.pinimg.com/736x/d5/c6/6d/d5c66de9dd36ecfd85da72d5403f9570.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color:#BCC8BC;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Balance and Money Info */
+.money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.balanceBox, .incomeBox, .expensesBox {
+  flex: 1;
+  height: 4rem;
+  text-align: center;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #15157A;
+  border-radius: 5px;
+}
+
+
+.balanceBox p, .incomeBox p, .expensesBox p {
+  margin: 5px;
+  font-size: 1rem;
+  color: white;
+}
+
+.balance {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #B7B8E1;
+}
+
+.income {
+  font-size: 1rem;
+  padding: 5px;
+  width: 25%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #DDE3DD;
+}
+
+.ent{
+  background-color:#DDE3DD ;
+}
+
+.expenses {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e76f51;
+}
+
+/* Add Expense Section */
+.add {
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.name, .amount, .category {
+  flex: 1;
+  min-width: 120px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.addButt {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #B7B8E1;
+  color: black;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addButt:hover {
+  background-color: #15157A;
+  color: white;
+}
+
+/* Expense List */
+h3 {
+  text-align: center;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.listing {
+  background-color: #F4F6F4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.listing div {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: #ccd0b9;
+}
+
+.listing div p{
+  min-width: 4rem;
+  max-width: 4rem;
+  max-height: 10rem;
+}
+
+.xbutt {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  width: 2rem;
+  opacity: 0;
+  transition:translate(-100%,-50%);
+  border: none;
+}
+
+.listing div:hover .xbutt{
+  opacity: 1;
+}
+
+.listing div:last-child {
+  border-bottom: none;
+}
+
+.listing p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Clear All Button */
+.clearAll {
+  display: block;
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+  background-color: #e76f51;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.clearAll:hover {
+  background-color: red;
+}
