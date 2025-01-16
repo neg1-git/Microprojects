@@ -26,3 +26,7 @@ This is a collection of small projects built using **HTML**, **CSS**, and **Java
 1. Clone the repository:  
    ```bash
    git clone https://github.com/yourusername/MicroProjects.git
+
+#About Me
+I’m a mechanical engineering student exploring front-end web development with a focus on HTML, CSS, and JavaScript. This repository serves as my practice ground for developing interactive and visually appealing web applications.
+
